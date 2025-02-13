@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a0655fd-4eea-4fdd-9b14-f45a08ce0206" name="Changes" comment="" />
+    <list default="true" id="2a0655fd-4eea-4fdd-9b14-f45a08ce0206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/forgot-password/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/register/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth-layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard-admin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgot-password-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hoc/isAuth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/authContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/userContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/api/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jwt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/schema/loginFormSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/schema/registerFormSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/types/user.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,29 +65,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/xrimir/Developer/Projects/grupownik-front",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/xrimir/Developer/Projects/grupownik-front/node_modules/prettier",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "/Users/xrimir/Developer/Projects/grupownik-front/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.13.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xrimir/Developer/Projects/grupownik-front&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/xrimir/Developer/Projects/grupownik-front/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/xrimir/Developer/Projects/grupownik-front/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src/lib/api" />
+      <recent name="$PROJECT_DIR$/src/app/(auth)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -72,11 +111,31 @@
       <updated>1737845752224</updated>
       <workItem from="1737845753789" duration="1273000" />
       <workItem from="1737847035881" duration="3349000" />
-      <workItem from="1737927884454" duration="2071000" />
+      <workItem from="1737927884454" duration="7071000" />
+      <workItem from="1738010028949" duration="31000" />
+      <workItem from="1739137595139" duration="5627000" />
+      <workItem from="1739229158984" duration="1877000" />
+      <workItem from="1739304861185" duration="2930000" />
+      <workItem from="1739309141560" duration="830000" />
+      <workItem from="1739309989032" duration="9498000" />
+      <workItem from="1739391504053" duration="9500000" />
+      <workItem from="1739457328869" duration="768000" />
+      <workItem from="1739458626718" duration="1551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
