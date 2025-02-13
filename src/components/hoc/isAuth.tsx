@@ -17,7 +17,7 @@ export default function isAuth(Component: FC) {
       return null;
     }
 
-    // @ts-ignore
+    // @ts-expect-error
     return <Component {...props} />;
   };
 }

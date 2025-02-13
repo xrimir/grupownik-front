@@ -1,5 +1,4 @@
 import { ComponentPropsWithoutRef, FormEvent, useState } from 'react';
-import axios from 'axios';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -17,6 +16,7 @@ export function ForgotPasswordForm({
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    setLoading(true);
     setMessage(null);
     setError(null);
 
@@ -25,17 +25,10 @@ export function ForgotPasswordForm({
       return;
     }
 
-    setLoading(true);
-    try {
-      const response = await axios.post('/api/forgot-password', { email });
-      setMessage(
-        'Jeśli ten e-mail istnieje w naszej bazie, otrzymasz wiadomość z linkiem resetującym.',
-      );
-    } catch (err) {
-      setError('Wystąpił błąd. Spróbuj ponownie.');
-    } finally {
-      setLoading(false);
-    }
+    setMessage(
+      'Jeśli ten e-mail istnieje w naszej bazie, otrzymasz wiadomość z linkiem resetującym.',
+    );
+    setLoading(false);
   };
 
   return (

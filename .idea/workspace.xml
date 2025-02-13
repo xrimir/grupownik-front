@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a0655fd-4eea-4fdd-9b14-f45a08ce0206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/forgot-password/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/register/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth-layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard-admin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgot-password-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hoc/isAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/overview.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/authContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/userContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/jwt.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/schema/loginFormSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/schema/registerFormSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/types/user.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forgot-password-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forgot-password-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc/isAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/isAuth.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +95,9 @@
       <workItem from="1739309989032" duration="9498000" />
       <workItem from="1739391504053" duration="9500000" />
       <workItem from="1739457328869" duration="768000" />
-      <workItem from="1739458626718" duration="1551000" />
+      <workItem from="1739458626718" duration="6531000" />
+      <workItem from="1739488333121" duration="22000" />
+      <workItem from="1739488660437" duration="84000" />
     </task>
     <servers />
   </component>
